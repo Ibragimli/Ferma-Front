@@ -1,6 +1,81 @@
 @media only screen and (max-width: 1200px) {
 
     main {
+        #profile {
+            padding: 100px 0px;
+
+            .container {
+                .row {
+                    .profileBody {
+                        #nav-tabContent {
+                            #nav-home {
+                                #elan-tabContent {
+                                    #elanPosterBox {
+                                        .row {
+                                            .posterBoxs {
+                                                .posterColBox {
+                                                    .posterBox {
+                                                        height: 310px;
+                                                        margin-bottom: 15px;
+
+                                                        .posterDetailBox {
+                                                            .posterCreatedBox {
+
+                                                                a {
+                                                                    position: absolute;
+                                                                    right: 5px;
+                                                                    bottom: 43px;
+                                                                }
+                                                            }
+                                                        }
+
+                                                        .posterActionBox {
+                                                            right: 0px;
+                                                            bottom: 6px;
+                                                            justify-content: space-around;
+
+                                                            .posterEditButtonBox {
+                                                                a {
+                                                                    padding: 5px 3px !important;
+                                                                }
+                                                            }
+
+                                                            .posterDisabledButtonBox {
+                                                                a {
+                                                                    padding: 5px 3px !important;
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+
+                                                    .posterBoxHeight {
+                                                        height: 280px !important;
+
+                                                        .posterDetailBox {
+                                                            .posterCreatedBox {
+
+                                                                a {
+                                                                    position: absolute;
+                                                                    right: 5px;
+                                                                    bottom: 8px;
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+
         #posterInfoUpBox {
             .container {
                 .row {
@@ -36,7 +111,6 @@
 
 
     }
-
 
 }
 
@@ -138,6 +212,64 @@
 
             .modal-dialog {
                 margin-top: 15%;
+            }
+        }
+
+        #profile {
+            padding: 100px 0px;
+
+            .container {
+                .row {
+                    .profileBody {
+                        #nav-tabContent {
+                            #nav-home {
+                                #elan-tabContent {
+                                    #elanPosterBox {
+                                        .row {
+                                            .posterBoxs {
+                                                .posterColBox {
+                                                    .posterBox {
+                                                        height: 288px !important;
+                                                        margin-bottom: 15px;
+
+                                                        .posterDetailBox {
+                                                            .posterCreatedBox {
+                                                                display: none;
+                                                            }
+                                                        }
+
+                                                        .posterActionBox {
+                                                            right: 0px;
+                                                            bottom: 6px;
+                                                            justify-content: space-around;
+
+                                                            .posterEditButtonBox {
+                                                                a {
+                                                                    padding: 5px 8px !important;
+                                                                }
+                                                            }
+
+                                                            .posterDisabledButtonBox {
+                                                                a {
+                                                                    padding: 5px 8px !important;
+
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                    .posterBoxHeight {
+                                                        height: 265px !important;
+
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
     }
@@ -348,8 +480,7 @@
                                         margin-top: 10px;
                                         padding-left: 10px !important;
 
-                                        .form-check {
-                                        }
+                                        .form-check {}
 
                                         label {
                                             margin-right: 10px;
@@ -871,6 +1002,61 @@
     }
 
     main {
+
+
+
+        #profile {
+            padding: 100px 0px;
+
+            .container {
+                .row {
+
+                    .profileBody {
+
+                        #nav-tabContent {
+                            #nav-home {
+                                #elan-tabContent {
+                                    #elanPosterBox {
+                                        .row {
+                                            .posterBoxs {
+                                                .posterColBox {
+                                                    .posterBox {
+                                                        height: 300px;
+                                                        margin-bottom: 15px;
+
+                                                        .posterActionBox {
+                                                            right: 0px;
+                                                            bottom: 12px;
+                                                            justify-content: space-around;
+
+                                                            .posterEditButtonBox {
+                                                                a {
+                                                                    padding: 5px 0px !important;
+                                                                    font-size: 16px;
+                                                                }
+                                                            }
+
+                                                            .posterDisabledButtonBox {
+                                                                a {
+                                                                    padding: 5px 0px !important;
+                                                                    font-size: 16px;
+
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
         #posterInfoUpBox {
             .container {
                 .row {
@@ -907,6 +1093,7 @@
                 }
             }
         }
+
     }
 }
 
@@ -980,6 +1167,53 @@
                 .row {
                     .breadCrumbBox {
                         left: 5%;
+                    }
+                }
+            }
+        }
+
+        #profile {
+            padding: 100px 0px;
+
+            .container {
+                .row {
+                    .profileBody {
+                        #nav-tabContent {
+                            #nav-home {
+                                #elan-tabContent {
+                                    #elanPosterBox {
+                                        .row {
+                                            .posterBoxs {
+                                                .posterColBox {
+                                                    .posterBox {
+                                                        .posterActionBox {
+                                                            right: 0px;
+                                                            bottom: 6px;
+
+
+                                                            .posterEditButtonBox {
+                                                                a {
+                                                                    padding: 5px 0px !important;
+                                                                    font-size: 14px;
+                                                                }
+                                                            }
+
+                                                            .posterDisabledButtonBox {
+                                                                a {
+                                                                    padding: 5px 0px !important;
+                                                                    font-size: 14px;
+
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
             }

@@ -1,0 +1,378 @@
+#profile {
+    padding: 100px 0px;
+
+    .container {
+        .row {
+            width: 100%;
+
+            .profileTitleAccount {
+                ul {
+                    li {
+                        h1 {}
+
+                        .btn {}
+                    }
+                }
+            }
+
+            .profileBody {
+                nav {
+                    background-color: goldenrod;
+                    border-radius: 8px;
+                    border-bottom-left-radius: 0px;
+                    border-bottom-right-radius: 0px;
+
+                    #nav-tab {
+                        button {
+                            i {}
+                        }
+                    }
+                }
+
+                #nav-tabContent {
+                    #nav-home {
+                        nav {
+                            background-color: rgba(0, 128, 0, 0.253);
+
+                            #elan-tab {
+                                margin-top: 10px;
+
+                                button {
+                                    span {}
+                                }
+                            }
+                        }
+
+                        #elan-tabContent {
+                            #elan-active {
+                                margin-top: 30px;
+                                padding: 30px 8px;
+                                border-radius: 8px;
+                                background-color: rgba(128, 128, 128, 0.39);
+                            }
+
+                            #elan-deactive {
+                                margin-top: 30px;
+                                padding: 30px 8px;
+                                border-radius: 8px;
+                                background-color: rgba(128, 128, 128, 0.39);
+                            }
+
+                            #elan-waiting {
+                                margin-top: 30px;
+                                padding: 30px 8px;
+                                border-radius: 8px;
+                                background-color: rgba(128, 128, 128, 0.39);
+                            }
+                            #elan-disabled {
+                                margin-top: 30px;
+                                padding: 30px 8px;
+                                border-radius: 8px;
+                                background-color: rgba(128, 128, 128, 0.39);
+                            }
+                            .elanCreatePosterBtn {
+
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                height: 100%;
+                                flex-direction: column;
+
+                                p {
+                                    font-size: 18px;
+                                    color: whitesmoke;
+                                }
+
+                                a {
+                                    background-color: #32CD32;
+                                    color: whitesmoke;
+
+                                    i {
+                                        color: white;
+                                    }
+                                }
+                            }
+
+                            #elanPosterBox {
+                                height: 100%;
+
+
+                                .row {
+                                    margin-top: 5px;
+                                    height: 100%;
+                                    transition: all 0.4s;
+
+                                    .posterTitleBoxCol {
+                                        .posterTitleBox {
+                                            h3 {
+                                                font-size: 22px;
+                                                line-height: 28px;
+                                                font-weight: 700;
+                                                color: #111;
+                                                margin-bottom: 10px;
+                                            }
+                                        }
+
+                                    }
+
+                                    .posterBoxs {
+                                        transition: all 0.4s;
+
+                                        .posterColBox {
+                                            transition: all 0.4s;
+
+                                            .posterBox {
+                                                position: relative;
+                                                border-radius: 10px;
+                                                width: 96%;
+                                                height: 310px;
+                                                // border: 1px solid red;
+                                                box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+                                                margin-bottom: 15px;
+                                                background-color: white;
+                                                transition: all 0.2s;
+
+                                                .posterImageBox {
+                                                    height: 180px;
+                                                    overflow: hidden;
+                                                    position: relative;
+                                                    border-top-left-radius: 10px;
+                                                    border-top-right-radius: 10px;
+
+                                                    a {
+
+                                                        img {
+
+                                                            transition: transform 0.3s ease;
+                                                            object-fit: cover;
+                                                            overflow: hidden;
+                                                            display: block;
+                                                            max-width: 100%;
+                                                            width: 100%;
+                                                            height: 100%;
+                                                            margin: 0 auto;
+                                                            border-top-left-radius: 10px;
+                                                            border-top-right-radius: 10px;
+
+                                                        }
+                                                    }
+
+                                                    .posterVipIconBox {
+                                                        position: absolute;
+                                                        bottom: 4px;
+                                                        right: 5px;
+                                                        width: 24px;
+
+                                                        a {
+                                                            i {
+                                                                display: flex;
+                                                                justify-content: center;
+                                                                align-items: center;
+                                                                color: orangered;
+                                                                background-color: white;
+                                                                border-radius: 5px;
+                                                                max-width: 100%;
+                                                                width: 100%;
+                                                                height: 22px;
+                                                                font-size: 18px;
+                                                            }
+                                                        }
+                                                    }
+
+                                                    .posterQueenIconBox {
+                                                        position: absolute;
+                                                        bottom: 4px;
+                                                        right: 35px;
+                                                        width: 24px;
+
+                                                        a {
+                                                            i {
+                                                                display: flex;
+                                                                justify-content: center;
+                                                                align-items: center;
+                                                                color: #FF9F2B;
+                                                                background-color: white;
+                                                                border-radius: 5px;
+                                                                max-width: 100%;
+                                                                width: 100%;
+                                                                height: 22px;
+                                                                font-size: 18px;
+                                                            }
+                                                        }
+                                                    }
+
+                                                    .posterWishIconBox {
+                                                        position: absolute;
+                                                        top: 10px;
+                                                        right: 12px;
+
+                                                        a {
+                                                            .wishIcon {
+                                                                display: flex;
+                                                                justify-content: center;
+                                                                align-items: center;
+                                                                color: #b4b7bbd2;
+                                                                max-width: 100%;
+                                                                font-size: 27px;
+                                                                transition: all 0.4s;
+                                                            }
+
+                                                            .wishIconActive {
+                                                                display: flex;
+                                                                justify-content: center;
+                                                                align-items: center;
+                                                                color: #32dc32;
+                                                                max-width: 100%;
+                                                                font-size: 27px;
+                                                                transition: all 0.4s;
+                                                            }
+
+                                                            .wishIcon:hover {
+                                                                color: #32dc32;
+                                                            }
+
+
+                                                        }
+                                                    }
+                                                }
+
+                                                .posterDetailBox {
+                                                    display: flex;
+                                                    flex-direction: column;
+                                                    border-top-right-radius: 2px;
+                                                    border-top-left-radius: 2px;
+                                                    background-color: white;
+                                                    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+
+                                                    .posterPriceBox {
+                                                        max-height: 28px;
+
+                                                        a {
+                                                            color: #212c3a;
+
+                                                            span {
+                                                                color: #212c3a;
+                                                                font-size: 20px;
+                                                                font-weight: bold;
+                                                                padding: 0 10px;
+                                                            }
+                                                        }
+                                                    }
+
+                                                    .posterNameBox {
+                                                        transition: all 0.4s;
+
+                                                        a {
+                                                            h4 {
+                                                                margin: 0;
+                                                                padding: 0;
+                                                                max-height: 38.4px;
+                                                                font-size: 17px;
+                                                                line-height: 1.1;
+                                                                overflow: hidden;
+                                                                padding: 0 10px;
+                                                                color: rgba(0, 0, 0, 0.712);
+                                                                font-weight: 400;
+                                                            }
+                                                        }
+                                                    }
+
+                                                    .posterCreatedBox {
+                                                        background-color: white;
+
+                                                        a {
+                                                            position: absolute;
+                                                            right: 5px;
+                                                            bottom: 38px;
+
+                                                            span {
+                                                                overflow: hidden;
+                                                                width: 80%;
+                                                                padding: 0 10px;
+                                                                color: #8d94ad;
+                                                                font-size: 14px;
+                                                                box-sizing: border-box;
+                                                            }
+                                                        }
+                                                    }
+
+
+                                                }
+
+                                                .posterActionBox {
+                                                    width: 100%;
+                                                    position: absolute;
+                                                    right: 0px;
+                                                    bottom: 6px;
+                                                    display: flex;
+                                                    justify-content: center;
+
+                                                    .posterEditButtonBox {
+                                                        a {
+                                                            padding: 0px;
+                                                            padding: 5px 10px;
+                                                            color: gray;
+                                                            border-radius: 4px;
+                                                            text-decoration: underline;
+                                                            margin-right: 6px;
+                                                        }
+                                                    }
+
+                                                    .posterDisabledButtonBox {
+                                                        a {
+                                                            padding: 0px;
+                                                            padding: 5px 10px;
+                                                            color: gray;
+                                                            border-radius: 4px;
+                                                            text-decoration: underline;
+
+                                                        }
+
+                                                    }
+
+                                                    .posterRepairButtonBox {
+                                                        a {
+                                                            padding: 0px;
+                                                            padding: 5px 10px;
+                                                            color: gray;
+                                                            border-radius: 4px;
+                                                            text-decoration: underline;
+                                                        }
+                                                    }
+                                                }
+                                            }
+
+                                            .posterBoxHeight {
+                                                height: 280px !important;
+
+                                                .posterDetailBox {
+                                                    .posterCreatedBox {
+
+                                                        a {
+                                                            position: absolute;
+                                                            right: 5px;
+                                                            bottom: 8px;
+                                                        }
+                                                    }
+
+
+                                                }
+                                            }
+
+                                            .posterBox:hover {
+                                                box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+
+                        }
+
+                    }
+                }
+            }
+        }
+
+    }
+}
