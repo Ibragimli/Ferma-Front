@@ -1,0 +1,82 @@
+main {
+
+
+    #login {
+        background-color: ghostwhite;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .container {
+            .row {
+                .card {
+                    position: relative;
+                    border-radius: 5px;
+                    border: none;
+                    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+                    .card-body {
+                        .backBtn {
+                            i {
+                                position: absolute;
+                                top: 15px;
+                                left: 15px;
+                                font-size: 24px;
+                                color: rgba(128, 128, 128, 0.548);
+                            }
+                            border: none;
+                        }
+
+                        .backBtn:focus {
+                            border: none;
+                        }
+
+                        h3 {
+                            font-size: 26px;
+                        }
+
+                        form {
+                            .form-outline {
+                                position: relative;
+
+                                input {
+                                    font-weight: 400;
+                                    border-radius: 5px;
+                                    height: 60px;
+                                    padding: 16px 0px 0px 15px;
+                                }
+
+                                label {
+                                    position: absolute;
+                                    top: 2;
+                                    left: 0;
+                                    padding-left: 15px;
+                                    color: gray;
+                                }
+                            }
+
+                            button {
+                                transition: all 0.4s;
+                                margin-top: 10px;
+                                width: 100%;
+                                border-radius: 5px;
+                                background-color: #0d6efdb3;
+                                border: none;
+                            }
+
+                            button:hover {
+                                background-color: #0d6dfddc;
+                                color: snow;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #loginFooter {
+        padding-top: 0px !important;
+    }
+}

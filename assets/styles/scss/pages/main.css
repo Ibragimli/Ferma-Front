@@ -1,0 +1,201 @@
+body main #categorySlider {
+  padding: 25px 0px; }
+  body main #categorySlider .categoryTitle h3 {
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 700;
+    color: #111;
+    margin-bottom: 10px; }
+  body main #categorySlider .owl-carousel {
+    padding: 0px 40px; }
+    body main #categorySlider .owl-carousel .owl-item {
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      body main #categorySlider .owl-carousel .owl-item #carouselBox a {
+        color: #333;
+        width: 96px; }
+        body main #categorySlider .owl-carousel .owl-item #carouselBox a .imageBox {
+          width: 76px;
+          height: 76px;
+          border-radius: 100px;
+          padding: 20px 20px;
+          background: #fff;
+          margin: 0 auto 8px auto;
+          transform: scale(1);
+          transition: 0.4s;
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 12px; }
+          body main #categorySlider .owl-carousel .owl-item #carouselBox a .imageBox img {
+            width: auto;
+            height: auto;
+            margin: auto;
+            max-width: 36px;
+            max-height: 36px; }
+        body main #categorySlider .owl-carousel .owl-item #carouselBox a .iconBox {
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 12px;
+          color: gray;
+          width: 76px;
+          height: 76px;
+          border-radius: 100px;
+          padding: 20px 20px;
+          background-color: #fff;
+          margin: 0 auto 8px auto;
+          transform: scale(1);
+          transition: 0.4s;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 28px; }
+        body main #categorySlider .owl-carousel .owl-item #carouselBox a h3 {
+          float: left;
+          width: 100%;
+          text-align: center;
+          font-size: 17px;
+          font-weight: 400; }
+    body main #categorySlider .owl-carousel .owl-nav {
+      z-index: 2;
+      opacity: 0;
+      transition: all 0.2s;
+      height: 0px; }
+      body main #categorySlider .owl-carousel .owl-nav button .owlLeft {
+        position: absolute;
+        top: 28px;
+        left: 2.5%;
+        color: gray;
+        font-size: 20px;
+        border-radius: 100%;
+        padding: 4px 8px 4px 8px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; }
+      body main #categorySlider .owl-carousel .owl-nav button .owlRight {
+        position: absolute;
+        top: 28px;
+        right: 2.5%;
+        color: gray;
+        font-size: 20px;
+        border-radius: 100%;
+        padding: 4px 8px 4px 8px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; }
+      body main #categorySlider .owl-carousel .owl-nav .disabled {
+        opacity: 0.3; }
+  body main #categorySlider .owl-carousel:hover .owl-nav {
+    opacity: 1; }
+body main #posterVip {
+  padding: 15px 0px; }
+  body main #posterVip .container {
+    transition: all 0.4s; }
+    body main #posterVip .container .row {
+      transition: all 0.4s; }
+      body main #posterVip .container .row .posterTitleBoxCol .posterTitleBox h3 {
+        font-size: 22px;
+        line-height: 28px;
+        font-weight: 700;
+        color: #111;
+        margin-bottom: 10px; }
+      body main #posterVip .container .row .posterBoxs {
+        transition: all 0.4s; }
+        body main #posterVip .container .row .posterBoxs .posterCol {
+          transition: all 0.4s; }
+          body main #posterVip .container .row .posterBoxs .posterCol .posterBox {
+            position: relative;
+            border-radius: 10px;
+            width: 96%;
+            height: 272px;
+            box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+            margin-bottom: 15px; }
+            body main #posterVip .container .row .posterBoxs .posterCol .posterBox .posterImageBox {
+              height: 180px;
+              overflow: hidden;
+              position: relative; }
+              body main #posterVip .container .row .posterBoxs .posterCol .posterBox .posterImageBox a img {
+                transition: transform 0.3s ease;
+                object-fit: cover;
+                overflow: hidden;
+                display: block;
+                max-width: 100%;
+                width: 100%;
+                height: 100%;
+                margin: 0 auto;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px; }
+              body main #posterVip .container .row .posterBoxs .posterCol .posterBox .posterImageBox .posterVipIconBox {
+                position: absolute;
+                bottom: 4px;
+                right: 5px;
+                width: 24px; }
+                body main #posterVip .container .row .posterBoxs .posterCol .posterBox .posterImageBox .posterVipIconBox a i {
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  color: orangered;
+                  background-color: white;
+                  border-radius: 5px;
+                  max-width: 100%;
+                  width: 100%;
+                  height: 22px;
+                  font-size: 18px; }
+              body main #posterVip .container .row .posterBoxs .posterCol .posterBox .posterImageBox .posterQueenIconBox {
+                position: absolute;
+                bottom: 4px;
+                right: 35px;
+                width: 24px; }
+                body main #posterVip .container .row .posterBoxs .posterCol .posterBox .posterImageBox .posterQueenIconBox a i {
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  color: #FF9F2B;
+                  background-color: white;
+                  border-radius: 5px;
+                  max-width: 100%;
+                  width: 100%;
+                  height: 22px;
+                  font-size: 18px; }
+            body main #posterVip .container .row .posterBoxs .posterCol .posterBox .posterDetailBox {
+              display: flex;
+              flex-direction: column;
+              border-top-right-radius: 2px;
+              border-top-left-radius: 2px;
+              background-color: white;
+              box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset; }
+              body main #posterVip .container .row .posterBoxs .posterCol .posterBox .posterDetailBox .posterPriceBox {
+                max-height: 28px; }
+                body main #posterVip .container .row .posterBoxs .posterCol .posterBox .posterDetailBox .posterPriceBox a {
+                  color: #212c3a; }
+                  body main #posterVip .container .row .posterBoxs .posterCol .posterBox .posterDetailBox .posterPriceBox a span {
+                    color: #212c3a;
+                    font-size: 20px;
+                    font-weight: bold;
+                    padding: 0 10px; }
+              body main #posterVip .container .row .posterBoxs .posterCol .posterBox .posterDetailBox .posterNameBox {
+                transition: all 0.4s; }
+                body main #posterVip .container .row .posterBoxs .posterCol .posterBox .posterDetailBox .posterNameBox a h4 {
+                  margin: 0;
+                  padding: 0;
+                  max-height: 38.4px;
+                  font-size: 17px;
+                  line-height: 1.1;
+                  overflow: hidden;
+                  padding: 0 10px;
+                  color: #212c3a; }
+              body main #posterVip .container .row .posterBoxs .posterCol .posterBox .posterDetailBox .posterCreatedBox a {
+                position: absolute;
+                right: 5px;
+                bottom: 0px; }
+                body main #posterVip .container .row .posterBoxs .posterCol .posterBox .posterDetailBox .posterCreatedBox a span {
+                  overflow: hidden;
+                  width: 80%;
+                  padding: 0 10px;
+                  color: #8d94ad;
+                  font-size: 14px;
+                  box-sizing: border-box; }
+          body main #posterVip .container .row .posterBoxs .posterCol .posterBox:hover .posterImageBox a img {
+            transition: all 0.3s;
+            transform: scale(1.2); }
+    body main #posterVip .container .navRow nav ul li a {
+      color: #111; }
+    body main #posterVip .container .navRow nav ul .active {
+      cursor: pointer; }
+      body main #posterVip .container .navRow nav ul .active span {
+        background-color: green;
+        border-color: green; }
+
+/*# sourceMappingURL=main.css.map */

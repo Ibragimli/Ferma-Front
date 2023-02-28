@@ -1,0 +1,231 @@
+header {
+    #headerUp {
+        border-bottom: 1px solid transparent;
+        transition: 0.4s;
+        position: fixed;
+        top: 0%;
+        right: 0%;
+        width: 100%;
+        z-index: 99;
+        background-color: white;
+        height: 63px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 1px 2px;
+
+        .casket {
+            .row {
+                .headLogo {
+                    .headImageBox {
+                        img {
+                            width: 140px !important;
+                            height: 62px !important;
+                            object-fit: cover;
+                        }
+                    }
+
+                }
+
+                .headCreateLogin {
+                    display: flex;
+                    justify-content: end;
+                    align-items: center;
+
+
+                    .headCreateBtn {
+                        a {
+                            background-color: green;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            margin-right: 10px;
+                            line-height: 21px;
+                            margin-top: 4px;
+                            margin-bottom: 4px;
+                            border-radius: 5px;
+                            border: none;
+                            width: 120px;
+                            height: 32px;
+
+                            i {
+                                float: left;
+                                margin: 3px 6px 0px 0;
+                                color: white;
+
+                            }
+
+                            span {
+                                font-style: 14px;
+                                font-weight: 700;
+                                color: white;
+                            }
+                        }
+                    }
+
+                    .headLogin {
+                        a {
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+
+                            span {
+                                color: gray;
+
+                            }
+
+                            i {
+                                margin-right: 2px;
+                                color: gray;
+                                font-size: 23px;
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+    #headSearch {
+        position: relative;
+        top: 63px;
+        left: 0px;
+        height: 53px;
+        width: 100%;
+        background-color: green;
+        display: flex;
+        align-items: center;
+        // margin-bottom: 85px;
+
+        .casket {
+            .row {
+                justify-content: center;
+
+                .headSearch {
+                    form {
+                        padding-right: 0px;
+                        padding-left: 0px;
+                        display: flex;
+
+                        a {
+                            border: 1px #dee2e6 solid;
+                            border-right: none;
+
+                            text-decoration: none;
+                            display: flex;
+                            align-items: center;
+                            background-color: white;
+                            padding: 0px 0px 0px 5px;
+                            border-top-left-radius: 0.375rem;
+                            border-bottom-left-radius: 0.375rem;
+
+                            i {
+                                color: gray;
+                            }
+                        }
+
+                        input {
+                            border-right: none;
+                            border-left: none;
+                            border-radius: 0px;
+                            padding: 6px 10px;
+                            width: 100%;
+                        }
+
+                        select {
+                            transition: all 0.4s;
+                            width: 70%;
+                            border-top-left-radius: 0px;
+                            border-bottom-left-radius: 0px;
+                        }
+
+
+                        button {
+                            background-color: yellowgreen;
+                            color: white;
+                            width: 150px;
+                            height: 33px;
+                        }
+
+                        a:focus {
+                            box-shadow: none;
+                        }
+
+                        input:focus {
+                            box-shadow: none;
+                        }
+
+                        select:focus {
+                            box-shadow: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #tabBar {
+        display: none;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 15px 0 calc(env(safe-area-inset-bottom) + 15px);
+        z-index: 99;
+        background-color: floralwhite;
+        transition: 0.2s linear;
+        height: 65px;
+        width: 100%;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+        .tabBar-ul {
+            display: flex;
+            justify-content: space-around;
+
+            li {
+                .tabBar-link {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    .tabBar-icon {
+                        color: #8d94ad;
+
+                        font-size: 24px;
+                    }
+
+                    .tabBar-text {
+                        color: #8d94ad;
+                        letter-spacing: 0.44px;
+                        font-size: 15px;
+
+                    }
+                }
+            }
+
+            .tabBar-addIcon {
+                position: absolute;
+                bottom: 12px;
+
+                a {
+                    margin: 0px 10px;
+
+                    i {
+                        font-size: 28px !important;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 45px;
+                        height: 45px;
+                        background-color: red;
+                        border-radius: 100%;
+                        color: white !important;
+                    }
+                }
+            }
+
+            .tabBar-li {
+                position: absolute;
+                bottom: 5px;
+            }
+        }
+    }
+}

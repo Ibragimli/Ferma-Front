@@ -1,0 +1,81 @@
+* {
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    a,
+    p,
+    span,
+    li {
+        font-family: Bitter;
+        color: #111111;
+    }
+
+    box-sizing: border-box;
+
+}
+
+body {
+
+
+    background-color: #eeecec;
+
+
+
+    .casket {
+        margin-right: auto;
+        margin-left: auto;
+        width: 1080px;
+    }
+
+    .secDisplay {
+        display: flex;
+        justify-content: center;
+    }
+
+    .row {
+        --bs-gutter-x: 0rem;
+    }
+
+    ul {
+        padding: 0px;
+        margin-bottom: 0px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .container-lg {
+        width: 1080px !important;
+    }
+
+}
+
+@font-face {
+    font-family: Bitter;
+    src: url(../fonts/Bitter-Light.ttf);
+}
+
+@font-face {
+    font-family: BitterRegular;
+    src: url(../fonts/Bitter-Regular.ttf);
+}
+
+@font-face {
+    font-family: BitterBold;
+    src: url(../fonts/Bitter-Bold.ttf);
+}
+
+@font-face {
+    font-family: BitterItalic;
+    src: url(../fonts/Bitter-Italic.ttf);
+}
+
+@font-face {
+    font-family: BitterBlack;
+    src: url(../fonts/Bitter-Black.ttf);
+}

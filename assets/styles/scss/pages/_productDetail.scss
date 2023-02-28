@@ -1,0 +1,626 @@
+
+
+#flexSlider {
+    padding: 20px 0px 20px 0px;
+    background-color: white;
+
+    .container {
+        .row {
+            .flexSliderBox {
+
+                .flexslider {
+                    margin: 0px;
+                }
+
+                #slider {
+                    padding: 0px;
+                    background-color: gainsboro;
+                    border: gainsboro;
+                    margin-bottom: 10px;
+
+                    ul {
+                        li {
+                            cursor: pointer;
+
+                            img {
+                                border-radius: 5px;
+                                height: 280px;
+                            }
+                        }
+
+                        .flex-nav-prev {
+                            .flex-prev {
+                                height: 45px;
+                            }
+
+                        }
+
+                        .flex-nav-next {
+
+                            .flex-next {
+                                height: 45px;
+
+                            }
+                        }
+                    }
+                }
+
+                #carousel {
+                    text-align: center;
+                    // background-color: gainsboro;
+                    border: gainsboro;
+
+                    .slides {
+                        width: 100%;
+
+                        li {
+                            cursor: pointer;
+
+                            img {
+                                border-radius: 5px;
+                                height: 100px;
+                                max-height: 100px;
+                            }
+
+                        }
+                    }
+
+                    ul {
+                        .flex-nav-prev {
+                            .flex-prev {
+                                height: 46px;
+                            }
+                        }
+
+                        .flex-nav-next {
+
+                            .flex-next {
+                                height: 46px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+#posterInfoUpBox {
+    background-color: whitesmoke;
+    padding: 20px 0px;
+    margin-bottom: 20px;
+
+    .container {
+        .row {
+            .posterInfo {
+                display: flex;
+                justify-content: space-between;
+
+                .posterTitleBox {
+                    order: 1;
+                    display: flex;
+                    justify-content: center;
+                    padding-left: 15px;
+
+                    .titleBox {
+
+                        h3 {
+                            font-weight: 700;
+                            margin-bottom: 7px;
+                            line-height: 1;
+                        }
+                    }
+
+
+                }
+
+                .posterPriceBox {
+                    order: 2;
+
+                    p {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        color: #fff;
+                        font-size: 30px;
+                        width: 80%;
+                        height: 100px;
+                        font-weight: 700;
+                        background-color: green;
+                    }
+                }
+            }
+
+            .posterService {
+                padding-left: 15px;
+
+                .colInfo {
+                    .detailServiceBox {
+                        .detailServiceButton {
+                            button {
+                                background-color: white;
+                                width: 100%;
+                                transition: all 0.4s;
+                                margin-bottom: 5px;
+                                text-align: center;
+
+                                span {
+                                    .serviceWord {
+                                        font-weight: 700;
+                                    }
+                                }
+
+                                .fa-sketch {
+                                    color: orangered;
+
+                                }
+
+                                .fa-crown {
+                                    color: #FF9F2B;
+
+                                }
+                            }
+
+                            .preButton {
+                                margin-left: 10px;
+                                width: 83%;
+                            }
+
+                            button:hover {
+                                background-color: aliceblue;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+#posterInfoDownBox {
+
+    .posterInfo {
+        display: flex;
+
+        .posterFeaturesBox {
+            padding-left: 10px;
+
+            .posterFeatures {
+                border-radius: 10px;
+                padding: 10px 0px 10px 15px;
+                background-color: whitesmoke;
+                width: 100%;
+
+                p {
+                    margin-bottom: 0px;
+                    // font-weight: 700;
+                    color: gray;
+                    font-size: 18px;
+
+                    span {
+                        font-weight: 700;
+                        font-size: 18px;
+                        margin-left: 6px;
+                    }
+
+                    a {
+                        transition: all 0.4s;
+
+                        span {}
+                    }
+
+                    a:hover {
+                        text-decoration: black underline;
+                    }
+                }
+            }
+        }
+
+
+        .posterAuthorView {
+            display: flex;
+
+            .posterViewTimeInfo {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                background-color: whitesmoke;
+                padding: 10px;
+                border-radius: 5px;
+                margin-right: 5px;
+                margin-left: 5px;
+                width: 100%;
+
+                p {
+                    margin-bottom: 0px;
+                    color: gray;
+
+                    span {
+                        color: gray;
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+
+        .posterAuthor {
+
+            display: flex;
+            flex-direction: column;
+            background-color: whitesmoke;
+            padding: 10px;
+            border-radius: 5px;
+
+            .posterAuthorLink {
+                display: flex;
+                flex-direction: column;
+
+                .authorName {
+                    font-weight: 500;
+                }
+
+                .authorPosters {
+                    text-decoration: underline;
+                    color: gray;
+                }
+            }
+
+
+            .authorNumbersBox {
+                display: flex;
+                justify-content: end;
+                margin-top: 10px;
+
+                .authorNumbers {
+                    display: flex;
+                    flex-direction: column;
+                    background-color: green;
+                    width: 130px;
+                    padding: 12px 0px;
+                    text-align: center;
+                    border-radius: 5px;
+
+                    .authorNumber {
+                        margin-bottom: 3px;
+
+                        a {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+
+                            i {
+                                margin-right: 5px;
+
+                                color: white;
+                            }
+
+                            .authorNumberLink {
+                                color: white;
+                                font-weight: 700;
+                                font-size: 17px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+
+}
+
+#warningMessage {
+    .warningMessageBox {
+        margin-top: 15px;
+        background-color: #F0F5FB;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        padding: 15px;
+
+        i {
+            color: #FF9F2B;
+            padding: 0px 20px;
+            font-size: 25px;
+        }
+
+        p {
+            display: flex;
+            flex-direction: column;
+            font-weight: 700;
+
+            span {
+                font-weight: 500;
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+#posterDescribe {
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    .container {
+        .row {
+            .describes {
+                display: flex;
+                flex-direction: column;
+                border: 1px dotted gray;
+                border-radius: 5px;
+                padding: 7px;
+
+                .describe {
+                    font-size: 17px;
+                }
+            }
+        }
+    }
+}
+
+#detailSlider {
+    background-color: #F5F5F5;
+    padding: 35px 0px;
+    margin-bottom: 40px;
+    .container {
+        .row {
+            .owl-carousel {
+
+                .item {
+                    background-color: white;
+                    border-radius: 5px;
+                    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+                    border-bottom: 1px solid white;
+                    width: 100%;
+
+                    .sliderImageBox {
+                        overflow: hidden;
+
+                        a {
+                            img {
+                                transition: all 0.3s;
+
+                                overflow: hidden;
+                                width: 100%;
+                                max-width: 100%;
+                                border-radius: 5px;
+                                border-bottom-left-radius: 0px;
+                                border-bottom-right-radius: 0px;
+
+                            }
+                        }
+                    }
+
+                    .itemDown {
+                        overflow: hidden;
+                        background-color: white;
+                        width: 100%;
+                        border-radius: 5px;
+                        border-bottom-left-radius: 0px;
+                        border-bottom-right-radius: 0px;
+
+                        .itemPrice {
+                            padding: 0px 7px;
+                            overflow: hidden;
+                            height: 27px;
+
+                            max-height: 27px;
+
+                            a {
+                                span {
+                                    font-weight: 700;
+                                    font-size: 21px;
+                                }
+                            }
+                        }
+
+                        .itemTitle {
+                            padding: 0px 7px;
+                            overflow: hidden;
+                            height: 65px;
+
+                            max-height: 65px;
+
+                            a {
+                                h2 {
+                                    font-size: 18px;
+                                    color: black;
+                                }
+                            }
+                        }
+
+                        .itemDate {
+                            padding: 0px 7px;
+                            text-align: end;
+                            background-color: white;
+                            overflow: hidden;
+                            height: 25px;
+                            max-height: 25px;
+
+                            a {
+                                span {
+                                    color: gray;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .item:hover {
+                    .sliderImageBox {
+                        a {
+
+                            img {
+                                transform: scale(1.1);
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+#vipServiceModal {
+
+    .modal-dialog {
+        margin-top: 4%;
+        transition: all 0.4s;
+
+        .modal-content {
+
+            .modal-header {
+                padding: 15px 25px;
+
+                .modal-title {
+                    i {
+                        color: orangered;
+                    }
+                }
+
+                .btn-close {}
+            }
+
+            .modal-body {
+                padding-left: 0px;
+                padding-right: 0px;
+
+                p {
+                    padding: 0px 25px;
+                    color: gray;
+
+                }
+
+                hr {
+                    color: #818589;
+                    margin: 0rem 0 !important;
+                }
+
+                h1 {
+                    background-color: whitesmoke;
+                    color: gray;
+                    text-align: center;
+                    padding: 9px 0px;
+                    margin-bottom: 0px;
+                    font-size: 13px;
+                }
+
+                form {
+
+                    padding: 8px 25px;
+                    background-color: white;
+
+                    .form-check {
+                        padding-top: 8px;
+                        padding-bottom: 8px;
+                        border-bottom: 1px solid whitesmoke;
+
+                        input {
+                            width: 1.1em;
+                            height: 1.1em;
+                        }
+
+                        label {
+                            display: block;
+                            font-size: 15px;
+                        }
+                    }
+
+                }
+            }
+
+            .modal-footer {
+                background-color: whitesmoke;
+                display: block;
+
+                button {
+                    padding: 10px 0px;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+#PremiumServiceModal {
+
+    .modal-dialog {
+        margin-top: 4%;
+        transition: all 0.4s;
+
+        .modal-content {
+
+            .modal-header {
+                padding: 15px 25px;
+
+                .modal-title {
+                    i {
+                        color: #FF9F2B;
+                    }
+                }
+
+                .btn-close {}
+            }
+
+            .modal-body {
+                padding-left: 0px;
+                padding-right: 0px;
+
+                p {
+                    padding: 0px 25px;
+                    color: gray;
+
+                }
+
+                hr {
+                    color: #818589;
+                    margin: 0rem 0 !important;
+                }
+
+                h1 {
+                    background-color: whitesmoke;
+                    color: gray;
+                    text-align: center;
+                    padding: 9px 0px;
+                    margin-bottom: 0px;
+                    font-size: 13px;
+                }
+
+                form {
+
+                    padding: 8px 25px;
+                    background-color: white;
+
+                    .form-check {
+                        padding-top: 8px;
+                        padding-bottom: 8px;
+                        border-bottom: 1px solid whitesmoke;
+
+                        input {
+                            width: 1.1em;
+                            height: 1.1em;
+                        }
+
+                        label {
+                            display: block;
+                            font-size: 15px;
+                        }
+                    }
+
+                }
+            }
+
+            .modal-footer {
+                background-color: whitesmoke;
+                display: block;
+
+                button {
+                    padding: 10px 0px;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

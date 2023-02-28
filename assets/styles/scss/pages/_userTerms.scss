@@ -1,0 +1,47 @@
+#userTerm {
+    background-color: #dcdcdc8a;
+    height: 100%;
+    margin-bottom: 40px;
+    padding: 20px 0px;
+
+    .container {
+        .row {
+            .userTermTitle {
+                h1 {
+                    font-weight: 700;
+                    margin-bottom: 10px;
+                }
+            }
+
+            .userTermBody {
+
+                .userTermActions800 {
+                    display: none;
+
+                    button {
+                        color: gray;
+                    }
+
+                    .active {
+                        color: black;
+                    }
+                }
+
+                .userTermActions {
+                    display: flex;
+
+                    .active {
+                        background-color: grey;
+                        color: white;
+                    }
+
+                    button {
+                        margin-bottom: 9px;
+                        color: black;
+                        border: 1px dotted grey;
+                    }
+                }
+            }
+        }
+    }
+}

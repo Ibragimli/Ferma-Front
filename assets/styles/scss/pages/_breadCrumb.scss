@@ -1,0 +1,48 @@
+#breadCrumbs {
+    background-color: whitesmoke;
+    padding: 10px 0px;
+    margin-top: 63px;
+
+    .casket {
+        .row {
+
+            .breadCrumbBox {
+                transition: all 0.4s;
+                padding-left: 1.5%;
+
+                ul {
+                    display: flex;
+
+                    li {
+                        padding-right: 8px;
+
+                        a {
+                            span {
+                                font-size: 19px;
+                                transition: all 0.4s;
+                                color: gray;
+                            }
+                        }
+
+                        a:hover {
+                            span {
+                                color: rgb(146, 144, 144);
+                            }
+                        }
+                    }
+
+                    li::after {
+                        content: "•";
+                        color: gray;
+                        right: 5px;
+                        width: 5px;
+                    }
+
+                    li:last-child::after {
+                        content: " ";
+                    }
+                }
+            }
+        }
+    }
+}
